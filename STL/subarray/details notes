@@ -1,0 +1,8 @@
+| Task                                  | Minimum Loops | Note                                |
+| ------------------------------------- | ------------- | ----------------------------------- |
+| Print *total sum* of all subarrays  | ✅ 1 loop      | Uses formula (i+1)*(n-i)*arr[i]   |
+| Print *each subarray's sum*         | ❌ 2 loops     | Need both start and end indices     |
+| Print *each subarray with elements* | ❌ 3 loops     | Outer, inner, and printing elements |
+
+
+  total subarray ==== n*(n+1)/2; n= element
