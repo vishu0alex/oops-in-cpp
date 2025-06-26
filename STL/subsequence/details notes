@@ -1,0 +1,5 @@
+| Task                                     | Loops Used | Time Complexity | Note                                         |
+| ---------------------------------------- | ---------- | --------------- | -------------------------------------------- |
+| Print **total sum** of all subsequences  | ✅ 1 loop   | O(n)            | Use formula `sum * 2^(n - 1)`                |
+| Print **sum of each subsequence**        | ✅ 2 loops  | O(n × 2ⁿ)       | Outer = 2ⁿ masks, inner = loop over elements |
+| Print **each subsequence with elements** | ✅ 2 loops  | O(n × 2ⁿ)       | Same as above, with printing too             |
