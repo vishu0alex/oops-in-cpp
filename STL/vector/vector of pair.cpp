@@ -32,3 +32,24 @@ int main() {
 
     return 0;
 }
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    vector<pair<int, int>> p = {
+        {3, 10},
+        {1, 20},
+        {4, 15},
+        {2, 25}
+    };
+
+    // Sort by first element descending
+    sort(p.begin(), p.end(), greater<pair<int, int>>());
+
+    for (auto &[x, y] : p) {
+        cout << x << " " << y << endl;
+    }
+
+    return 0;
+}
